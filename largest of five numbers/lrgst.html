@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>largest of five numbers.</title>
+    <style>
+        h1 {
+            background-color: rgb(255, 51, 0);
+            color: aliceblue;
+            font-style: italic;
+            font-display: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Write a statement to find the largest of five numbers</h1>
+    <script>
+       const answer = prompt("Enter five numbers.");
+       
+       function getLargest(a, b, c, d, e) {
+        let numArray = [a, b, c, d, e];
+
+        return Math.max(...numArray);
+       }
+       console.log(getLargest(1, 2, 3, 4, 5));
+
+
+        
+    </script>
+</body>
+</html>
